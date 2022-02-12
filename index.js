@@ -102,3 +102,13 @@ while(state==0){
         alert('Incorrect')
     }
 }
+let state=0
+while(state==0){
+    let sign = prompt("How much is 2 + 2?")
+    if(sign == '4'){
+        alert('Right')
+        state = 1
+    }else{
+        alert('Incorrect')
+    }
+}
